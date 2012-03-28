@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OnlineIrb</title>
+  <%= stylesheet_link_tag    "application", "jquery.terminal", :media => "all" %>
+  <%= javascript_include_tag "application", "jquery.mousewheel-min", "jquery.terminal-0.4.11" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
