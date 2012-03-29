@@ -58,6 +58,10 @@ module OnlineIrb
   end
 end
 
+# Creating a new binding hash. The key is the encrypted timestamp and the value is the binding
+$bindings = {}
+
+# Overwriting the puts methods of Ruby to return a value instead of returning nil
 def puts(*arg)
   p(*arg)
 end
